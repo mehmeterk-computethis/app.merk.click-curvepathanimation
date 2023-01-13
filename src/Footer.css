@@ -1,0 +1,30 @@
+
+footer{
+  background-color: black;
+  position: fixed;
+    width: 100vw;
+    height: 5%;
+    bottom: 0;
+}
+footer>div{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items:center;
+}
+footer>div>img{
+  height: 5vh;
+  overflow: visible;
+}
+
+footer>div>p{
+  color: white;
+  width: fit-content;
+}
+footer>div.logo-list{
+  float:left;
+}
+footer>div.refference{
+  float:right;
+  margin-right: 2%;
+}
